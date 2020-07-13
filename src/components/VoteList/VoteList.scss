@@ -1,0 +1,25 @@
+.vote-list {
+  display: flex;
+  flex-direction: column;
+
+  .box {
+    display: flex;
+    align-items: center;
+
+    .vote-box {
+      width: 70px;
+      height: 70px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 7px;
+      margin-right: 10px;
+      background-color: #d4d4d4;
+
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}
