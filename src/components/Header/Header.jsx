@@ -6,8 +6,8 @@ const Header = ({
 }) => {
   return (
     <div className="header" data-testid={`header-${testId}`}>
-      <strong>hepsiburada <span>.com</span> </strong>
-      <strong>Link <span>VOTE challenge</span> </strong>
+      <strong>ecommerce <span>.com</span> </strong>
+      <strong>Link <span>VOTE Project</span> </strong>
     </div>
   );
 };
